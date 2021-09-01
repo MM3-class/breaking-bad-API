@@ -3,11 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #999;
+}
+img {
+    
+}
 .container {
     background-repeat: no-repeat;
     background-size:cover;
     object-fit: cover;
-    height: auto;
+    height: 100vh;
     padding-top: 8px;
 }
 #main {
@@ -24,6 +30,9 @@ select:focus {
 #actorInfo img{
     width: 200px;
     height: 250px;
+    margin-top: 20px;
+    box-shadow: 12px 14px 5px #1f201e;
+    border-radius: 10px;
 }
 #actors select  {
     font-size: 14px;
@@ -54,6 +63,9 @@ h2 {
     body {
         width: 100vw;
         overflow-x: hidden;
+    }
+    #actorInfo img {
+        box-shadow: none;
     }
     .container {
         width: 100%;
