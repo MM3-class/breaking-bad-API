@@ -15,7 +15,7 @@ const printInfo = async (name) => {
         console.log(response[0])
         actorInfo.innerHTML =
         `<h1>${response[0].name} </h1>
-        <h2>Appearance on:<br> ${response[0].appearance} <br>Episode</h2>
+        <h2>Appearance on:<br> ${response[0].appearance} <br>Season</h2>
         <img src = "${response[0].img}">
         `
     }
